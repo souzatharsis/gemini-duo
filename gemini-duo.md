@@ -1,9 +1,4 @@
-Obs.: I had to trim down the notebook (images and output) due to Kaggle's 1MB kernel size limitation. Please see [video](https://www.youtube.com/watch?v=Wuer_v__Ryg) for detailed explanation.
 
-Kaggle Utility Scripts Dependencies:
-- [gemini-duo2](https://www.kaggle.com/code/felixthecat/gemini-duo2): Core Gemini Duo functionalities
-- [gemini-tts](https://www.kaggle.com/code/felixthecat/gemini-duo-tts): Gemini Duo Text-to-speech module
-- [gemini_duo_content](https://www.kaggle.com/code/felixthecat/gemini-duo-content): Gemini Duo content parsing module
 
 
 ![Screenshot from 2024-12-01 17-38-56.png](gemini-duo_files/a8f4de2f-9e2a-4bbb-ba4f-9233f5b6ac75.png)
