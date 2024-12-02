@@ -54,7 +54,7 @@ Let's start by loading our knowledge base. I'm amazed at how Gemini Duo can hand
 - ID 7. The Mayflower Compact
 - ID 8. Abraham Lincoln's Second Inaugural Address
 - ID 9. Abraham Lincoln's First Inaugural Address
-- 
+
 Let's start by loading our knowledge base. I'm amazed at how Gemini Duo can handle such a large amount of data!
 
 
