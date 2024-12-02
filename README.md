@@ -58,9 +58,6 @@ Let's start by loading our knowledge base. I'm amazed at how Gemini Duo can hand
 Let's start by loading our knowledge base. I'm amazed at how Gemini Duo can handle such a large amount of data!
 
 
-
-
-
 ### Package dependencies
 
 
@@ -73,23 +70,12 @@ Let's start by loading our knowledge base. I'm amazed at how Gemini Duo can hand
 %pip install -q -U 'google-generativeai>=0.8.3'
 ```
 
-    Note: you may need to restart the kernel to use updated packages.
-
-
 
 ```python
 import gemini_duo_content
 import gemini_duo_tts
 import gemini_duo2 as genai_duo
 from IPython.display import Markdown, display
-```
-
-**IMPORTANT**: Here we set audio generation to false due to Kaggle's kernel 1MB limitation. 
-When running the notebook feel free to set it to TRUE.
-
-
-```python
-AUDIO_GENERATION = False
 ```
 
 Gemini Duo can handle very large knowledge bases thanks to its long-context capabilities, loading over 100K tokens from our reading list!
@@ -114,7 +100,7 @@ Now, let's simulate a conversation with a professor and student focused on the r
 
 
 ```python
-rights_response = duo.qa("Give me an overview of the history of 'Rights' in the U.S.A.", transcript_only= not AUDIO_GENERATION)
+rights_response = duo.qa("Give me an overview of the history of 'Rights' in the U.S.A.")
 
 ```
 
@@ -193,7 +179,7 @@ duo.add([study_references[0]])
 
 
 ```python
-magna_response1 = duo.qa("Help me understand Magna Carta", transcript_only= not AUDIO_GENERATION)
+magna_response1 = duo.qa("Help me understand Magna Carta")
 ```
 
     prompt_token_count: 82631
@@ -212,7 +198,7 @@ duo.add([study_references[1]])
 
 
 ```python
-magna_response2 = duo.qa("William Sharp McKechnie on Magna Carta", transcript_only= not AUDIO_GENERATION)
+magna_response2 = duo.qa("William Sharp McKechnie on Magna Carta")
 ```
 
     prompt_token_count: 383819
