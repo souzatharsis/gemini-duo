@@ -14,6 +14,7 @@ Welcome to Gemini Duo, your AI-powered teaching companion designed to transform 
 - **Grounded Research**: Perform research based on real-time information leveraging Gemini's grounding capapabilities
 - **Structured Output**: Generate Output in JSON object leveraging Gemini's structured output capabilities to enable downstream integration
 
+## Video Demo
 [![Watch the video](https://img.youtube.com/vi/Wuer_v__Ryg/0.jpg)](https://www.youtube.com/watch?v=Wuer_v__Ryg)
 
 ## Use Case
